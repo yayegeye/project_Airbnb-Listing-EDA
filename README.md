@@ -1,19 +1,14 @@
 ### Airbnb Listings EDA: New York 2024
 
----
 
 ## Project Overview
 Exploratory Data Analysis (EDA) of New York Airbnb data to uncover rental trends using Pandas, NumPy, Matplotlib, and Seaborn for data cleaning, visualization, and analysis.
-
----
 
 ## Objectives
 1. Analyze room types, prices, and availability across different neighborhoods.
 2. Understand host behavior and listing patterns.
 3. Detect potential outliers in prices.
 4. Provide recommendations for guests and hosts based on insights. 
-
----
 
 ## Dataset
 **20,765 listings with 22 features**  
@@ -28,7 +23,6 @@ Key variables:
 - `reviews_per_month`: Average monthly reviews
 - `latitude/longitude`: Geolocation of listings    
 
----
 
 ## Analysis Workflow
 
@@ -83,7 +77,6 @@ Key variables:
 5. **Hosts behavior**  
    - Some hosts manage multiple listings, indicating a trend toward professional hosting.
 
----
 ## Future Work
 1. Price prediction model
 2. Review sentiment analysis

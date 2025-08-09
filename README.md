@@ -67,11 +67,11 @@ Key variables:
 
 
 ## Key Findings
-1. **Pricing**  
+1. **Pricing trends**  
    - Manhattan most expensive ($196 avg), followed by Brooklyn
    - Entire homes cost 3x more than private rooms  
 
-2. **Accommodation**  
+2. **Room type distribution**  
    - Entire homes/apartments are the most common, but private rooms offer budget-friendly option  
 
 3. **Outliers**  
@@ -84,3 +84,12 @@ Key variables:
    - Some hosts manage multiple listings, indicating a trend toward professional hosting.
 
 ---
+## Future Work
+1. Price prediction model
+2. Review sentiment analysis
+3. Interactive dashboard
+
+## Conclusion
+This analysis helps guests find better stays and hosts optimize listings. Key insights show significant price variations by location and room type, and the impact of availability on reviews
+
+

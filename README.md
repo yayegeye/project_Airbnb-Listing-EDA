@@ -1,16 +1,15 @@
-### Airbnb Listings EDA: New York 2024
+# Airbnb Listings EDA: New York 2024
 
-
-## Project Overview
+### Project Overview
 Exploratory Data Analysis (EDA) of New York Airbnb data to uncover rental trends using Pandas, NumPy, Matplotlib, and Seaborn for data cleaning, visualization, and analysis.
 
-## Objectives
+### Objectives
 1. Analyze room types, prices, and availability across different neighborhoods.
 2. Understand host behavior and listing patterns.
 3. Detect potential outliers in prices.
 4. Provide recommendations for guests and hosts based on insights. 
 
-## Dataset
+### Dataset
 **20,765 listings with 22 features**  
 Key variables:  
 - `id`: Unique listing ID
@@ -23,8 +22,7 @@ Key variables:
 - `reviews_per_month`: Average monthly reviews
 - `latitude/longitude`: Geolocation of listings    
 
-
-## Analysis Workflow
+### Analysis Workflow
 
 ### 1. Data Cleaning
 - Handle missing data: `price`, `neighborhood`, and `beds` columns had null values.
@@ -59,30 +57,25 @@ Key variables:
 - Histograms and Boxplots: To detect outliers in `price`.
 - Bar Charts: Displaying room types and neighborhood group distributions.
 
-
-## Key Findings
+### Key Findings
 1. **Pricing trends**  
    - Manhattan most expensive ($196 avg), followed by Brooklyn
    - Entire homes cost 3x more than private rooms  
-
 2. **Room type distribution**  
    - Entire homes/apartments are the most common, but private rooms offer budget-friendly option  
-
 3. **Outliers**  
    - 27 listings priced > $10,000  
-
 4. **Availability patterns**  
-   - Listings with high availability tend to have lower prices and more reviews, likely due to better guest experience.
-  
+   - Listings with high availability tend to have lower prices and more reviews, likely due to better guest experience. 
 5. **Hosts behavior**  
    - Some hosts manage multiple listings, indicating a trend toward professional hosting.
 
-## Future Work
+### Future Work
 1. Price prediction model
 2. Review sentiment analysis
 3. Interactive dashboard
 
-## Conclusion
+### Conclusion
 This analysis helps guests find better stays and hosts optimize listings. Key insights show significant price variations by location and room type, and the impact of availability on reviews
 
 
